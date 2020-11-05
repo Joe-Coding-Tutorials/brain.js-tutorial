@@ -8,7 +8,7 @@ const network = new brain.NeuralNetwork();
 //   { input: [0, 1, 1], output: [0] },
 //   { input: [1, 0, 1], output: [1] },
 //   { input: [1, 1, 1], output: [1] },
-// ])
+// ]);
 
 network.train([
   { input: [1, 2], output: [1] }, // Team 2 wins
