@@ -22,4 +22,5 @@ network.train([
 
 const output = network.run([1, 4]);
 
+
 console.log(`Prob: ${output}`);
